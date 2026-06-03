@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SwingLens | See Every Swing.</title>
+    <meta
+      name="description"
+      content="SwingLens 以 AI 自動偵測揮桿、錄影裁切、慢動作回放與雙裝置即時重播，讓每一次練習都能被看見。"
+    />
+    <link rel="icon" type="image/png" href="assets/logo-icon.png" />
+    <link rel="preload" href="assets/splash-screen.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="SwingLens 首頁">
+          <img src="assets/logo-icon.png" alt="SwingLens 標誌" />
+          <span>SwingLens</span>
+        </a>
+        <nav class="site-nav" aria-label="主要導覽">
+          <a href="#features">功能</a>
+          <a href="#experience">體驗</a>
+          <a href="#pro">Pro</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">POWERED BY AI VISION</p>
+            <h1>看見每一次揮桿，不再錯過任何細節。</h1>
+            <p class="hero-text">
+              SwingLens 是為高爾夫練習打造的 iPhone 錄影助手。它會自動偵測揮桿、開始錄影、裁切片段並立刻回放，讓你專注揮桿，而不是按快門。
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#features">探索核心功能</a>
+              <a class="button button-secondary" href="#pro">查看 Pro 體驗</a>
+            </div>
+            <ul class="hero-points" aria-label="產品優勢">
+              <li>AI 自動偵測揮桿並錄影</li>
+              <li>片庫即時回顧與分享</li>
+              <li>雙裝置無線即時重播</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="orb orb-a"></div>
+            <div class="orb orb-b"></div>
+            <div class="device-frame">
+              <img
+                class="device-screenshot"
+                src="assets/splash-screen.png"
+                alt="SwingLens 啟動畫面與品牌視覺"
+              />
+            </div>
+            <div class="metric-card metric-card-top">
+              <span class="metric-label">Auto Capture</span>
+              <strong>偵測揮桿後自動開始</strong>
+            </div>
+            <div class="metric-card metric-card-bottom">
+              <span class="metric-label">Replay Ready</span>
+              <strong>揮桿後立即看片回放</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="stats-strip" aria-label="產品特色摘要">
+          <article>
+            <strong>免按鍵</strong>
+            <span>從待機到錄影，自動接手。</span>
+          </article>
+          <article>
+            <strong>最近 20 支片段</strong>
+            <span>每次揮桿都會自動收進片庫。</span>
+          </article>
+          <article>
+            <strong>240fps 慢動作</strong>
+            <span>放大擊球瞬間與身體節奏。</span>
+          </article>
+          <article>
+            <strong>無需 Wi‑Fi</strong>
+            <span>戶外練習場也能雙機重播。</span>
+          </article>
+        </section>
+
+        <section class="section" id="features">
+          <div class="section-heading">
+            <p class="eyebrow">CORE FEATURES</p>
+            <h2>不是錄影工具，而是更完整的練習流程。</h2>
+            <p>
+              從準備揮桿到回看修正，SwingLens 把每一段體驗串成一條順的動線，讓練習更像訓練，而不是整理素材。
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card feature-card-wide">
+              <span class="feature-kicker">01</span>
+              <h3>AI 自動捕捉每一桿</h3>
+              <p>
+                開啟偵測後，系統會在你進入揮桿動作時自動開始錄影，結束後裁切出完整片段，全程不必碰手機。
+              </p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-kicker">02</span>
+              <h3>片庫立即回顧</h3>
+              <p>最近的揮桿片段會自動保存，支援慢動作播放與一鍵分享給教練或同伴。</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-kicker">03</span>
+              <h3>雙裝置即時重播</h3>
+              <p>把第二台裝置放在球位旁，揮桿完成後就能自動接收影片並全螢幕播放。</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-kicker">04</span>
+              <h3>練習場環境優先</h3>
+              <p>首次進入會請求相機、藍牙與本地網路權限，連線後可在戶外穩定使用。</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section section-alt" id="experience">
+          <div class="section-heading">
+            <p class="eyebrow">EXPERIENCE FLOW</p>
+            <h2>為高爾夫動作分析而設計的三步節奏。</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-step">
+              <div class="timeline-index">1</div>
+              <div>
+                <h3>架好手機，進入待機</h3>
+                <p>相機進入全螢幕預覽後，AI 會持續偵測揮桿姿勢，等待你真正開始動作。</p>
+              </div>
+            </article>
+            <article class="timeline-step">
+              <div class="timeline-index">2</div>
+              <div>
+                <h3>揮桿當下自動錄製</h3>
+                <p>不需要倒數、不需要手動停止，系統會在正確時機擷取完整揮桿段落。</p>
+              </div>
+            </article>
+            <article class="timeline-step">
+              <div class="timeline-index">3</div>
+              <div>
+                <h3>立刻回放、比較、修正</h3>
+                <p>回到片庫或切到顯示模式，剛打完就能看，讓身體記憶和影像資訊同步。</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section pro-section" id="pro">
+          <div class="section-heading">
+            <p class="eyebrow">SWINGLENS PRO</p>
+            <h2>為需要更深分析與更快回饋的球友而升級。</h2>
+            <p>
+              Pro 版本聚焦在兩件事：看得更慢，以及看得更快。從 240fps 慢動作到雙裝置即時重播，都是為了讓修正更即時。
+            </p>
+          </div>
+
+          <div class="pro-layout">
+            <article class="pro-panel">
+              <h3>你會解鎖的能力</h3>
+              <ul class="check-list">
+                <li>240fps 慢動作回放，放大擊球瞬間</li>
+                <li>雙裝置顯示模式，自動接收並循環播放</li>
+                <li>未來進階數據與雲端功能優先開放</li>
+              </ul>
+            </article>
+            <article class="pro-panel pro-panel-highlight">
+              <p class="mini-label">Practice Scenario</p>
+              <h3>一台拍，一台播</h3>
+              <p>
+                Camera 裝置負責捕捉揮桿，Display 裝置站在球位旁負責播放。你打完走一步，就能直接看到剛剛那一桿。
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section section-alt" id="faq">
+          <div class="section-heading">
+            <p class="eyebrow">FAQ</p>
+            <h2>幾個使用前會在意的問題。</h2>
+          </div>
+
+          <div class="faq-list">
+            <article>
+              <h3>一定要網路才可以用嗎？</h3>
+              <p>不用。雙裝置重播是以本地連線為主，戶外練習場也能完成核心體驗。</p>
+            </article>
+            <article>
+              <h3>這是只給教練用的工具嗎？</h3>
+              <p>不是。從自我練習到教學現場都適合，尤其適合想減少手動錄影流程的球友。</p>
+            </article>
+            <article>
+              <h3>第一次開啟會要求哪些權限？</h3>
+              <p>相機、藍牙與本地網路。這些權限分別用於錄影、雙機配對與即時傳送片段。</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="cta-banner">
+          <p class="eyebrow">SEE EVERY SWING.</p>
+          <h2>把練習的每一桿，變成能立刻修正的資訊。</h2>
+          <p>
+            SwingLens 以最少操作，換最快回饋。適合在打擊墊旁邊直接使用，也適合需要穩定回看的教學現場。
+          </p>
+          <a class="button button-primary" href="#top">回到頂部</a>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
