@@ -105,6 +105,7 @@ const EN = {
   "cta.button": "Back to top",
 
   "footer.privacy": "Privacy Policy",
+  "footer.support": "Support",
 };
 
 const JA = {
@@ -195,6 +196,7 @@ const JA = {
   "cta.button": "トップに戻る",
 
   "footer.privacy": "プライバシーポリシー",
+  "footer.support": "サポート",
 };
 
 const DE = {
@@ -285,6 +287,7 @@ const DE = {
   "cta.button": "Nach oben",
 
   "footer.privacy": "Datenschutzrichtlinie",
+  "footer.support": "Support",
 };
 
 const FR = {
@@ -375,6 +378,7 @@ const FR = {
   "cta.button": "Retour en haut",
 
   "footer.privacy": "Politique de confidentialité",
+  "footer.support": "Assistance",
 };
 
 const ES = {
@@ -465,6 +469,7 @@ const ES = {
   "cta.button": "Volver arriba",
 
   "footer.privacy": "Política de privacidad",
+  "footer.support": "Soporte",
 };
 
 const PT = {
@@ -555,6 +560,7 @@ const PT = {
   "cta.button": "Voltar ao topo",
 
   "footer.privacy": "Política de Privacidade",
+  "footer.support": "Suporte",
 };
 
 // 非預設語言的字典（預設 zh 由 HTML 擷取，不在此）

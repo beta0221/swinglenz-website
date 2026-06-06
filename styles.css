@@ -574,16 +574,26 @@ img {
   font-size: 0.9rem;
 }
 
+.footer-links {
+  display: inline-flex;
+  gap: 20px;
+}
+
 .site-footer a:hover,
 .site-footer a:focus-visible {
   color: var(--text);
 }
 
 /* 隱私權政策等法律條文頁 */
+.legal .eyebrow {
+  margin-bottom: 18px;
+}
+
 .legal h1 {
   font-size: clamp(2.4rem, 5vw, 3.6rem);
-  letter-spacing: -0.04em;
-  margin: 0 0 14px;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  margin: 2px 0 16px;
 }
 
 .legal-meta {
@@ -685,8 +695,74 @@ img {
   white-space: nowrap;
 }
 
+/* 精簡標頭（隱私／支援等內頁，只有品牌與返回連結） */
+.minimal-header {
+  align-items: center;
+}
+
+/* 支援頁：統一內容寬度與節奏的單欄閱讀版面 */
+.support-page {
+  padding-top: 72px;
+}
+
+.support-page .section-heading,
+.support-page .legal-body,
+.support-page .support-subhead,
+.support-page .support-faq,
+.support-page .legal-back {
+  width: 100%;
+  max-width: 860px;
+}
+
+.support-page .legal-body {
+  padding: 32px 36px;
+}
+
+/* 用 .support-page 提高 specificity，避免被 .section h2 的字級/行高蓋掉 */
+.support-page .support-subhead {
+  margin: 56px 0 20px;
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  line-height: 1.18;
+  letter-spacing: -0.03em;
+}
+
+.support-email {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.support-email:hover,
+.support-email:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* FAQ：桌面兩欄，並讓等高卡片內文留白一致 */
+.support-faq {
+  margin-top: 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.support-faq article {
+  display: flex;
+  flex-direction: column;
+}
+
+.support-faq article p {
+  margin-top: 10px;
+}
+
 .legal-back {
-  margin-top: 34px;
+  margin-top: 36px;
+}
+
+.legal-back .button {
+  width: auto;
 }
 
 @media (max-width: 1100px) {
@@ -977,6 +1053,51 @@ img {
   .legal-body {
     padding: 24px 20px;
     border-radius: 22px;
+  }
+
+  /* 精簡標頭：手機上仍維持品牌與返回連結同一列 */
+  .minimal-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px 0 10px;
+  }
+
+  .minimal-header .header-actions {
+    flex: 0 0 auto;
+    align-items: center;
+  }
+
+  .minimal-header .back-link {
+    white-space: nowrap;
+    padding: 8px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text);
+    font-size: 0.85rem;
+  }
+
+  /* 支援頁手機調校 */
+  .support-page {
+    padding-top: 40px;
+  }
+
+  .support-page .legal-body {
+    padding: 22px 20px;
+  }
+
+  .support-page .support-subhead {
+    margin: 38px 0 14px;
+  }
+
+  .support-email {
+    font-size: 1.1rem;
+  }
+
+  .support-faq {
+    gap: 14px;
   }
 
   .section h2,
