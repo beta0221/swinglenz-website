@@ -103,6 +103,8 @@ const EN = {
   "cta.p":
     "SwingLenz trades minimal effort for the fastest feedback. Perfect right beside the hitting mat, and for teaching sessions that need steady review.",
   "cta.button": "Back to top",
+
+  "footer.privacy": "Privacy Policy",
 };
 
 const JA = {
@@ -191,6 +193,8 @@ const JA = {
   "cta.p":
     "SwingLenzは最小限の操作で最速のフィードバックを。打席のすぐ横での使用にも、安定した振り返りが必要な指導現場にも最適です。",
   "cta.button": "トップに戻る",
+
+  "footer.privacy": "プライバシーポリシー",
 };
 
 const DE = {
@@ -279,6 +283,8 @@ const DE = {
   "cta.p":
     "SwingLenz tauscht minimalen Aufwand gegen schnellstes Feedback. Perfekt direkt neben der Abschlagmatte und für Unterrichtsstunden, die eine stabile Auswertung brauchen.",
   "cta.button": "Nach oben",
+
+  "footer.privacy": "Datenschutzrichtlinie",
 };
 
 const FR = {
@@ -367,6 +373,8 @@ const FR = {
   "cta.p":
     "SwingLenz échange un effort minimal contre le retour le plus rapide. Parfait juste à côté du tapis de frappe, et pour les séances d'enseignement qui exigent une revue stable.",
   "cta.button": "Retour en haut",
+
+  "footer.privacy": "Politique de confidentialité",
 };
 
 const ES = {
@@ -455,6 +463,8 @@ const ES = {
   "cta.p":
     "SwingLenz cambia un esfuerzo mínimo por la respuesta más rápida. Perfecto junto a la alfombra de golpeo y para las clases que necesitan una revisión estable.",
   "cta.button": "Volver arriba",
+
+  "footer.privacy": "Política de privacidad",
 };
 
 const PT = {
@@ -543,6 +553,8 @@ const PT = {
   "cta.p":
     "O SwingLenz troca esforço mínimo pelo feedback mais rápido. Perfeito ao lado do tapete de batida e para aulas que precisam de uma revisão estável.",
   "cta.button": "Voltar ao topo",
+
+  "footer.privacy": "Política de Privacidade",
 };
 
 // 非預設語言的字典（預設 zh 由 HTML 擷取，不在此）
